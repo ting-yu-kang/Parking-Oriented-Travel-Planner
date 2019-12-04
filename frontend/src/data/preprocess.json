@@ -1,0 +1,102 @@
+{
+    "attraction_categories": [
+        {
+            "key": "waterpark",
+            "name": "water park"
+        },
+        {
+            "key": "amusementpark",
+            "name": "amusement park"
+        },
+        {
+            "key": "boating",
+            "name": "boating"
+        },
+        {
+            "key": "skydiving",
+            "name": "skydiving"
+        },
+        {
+            "key": "escapegame",
+            "name": "escape games"
+        },
+        {
+            "key": "climbing",
+            "name": "climbing"
+        },
+        {
+            "key": "diving",
+            "name": "diving"
+        },
+        {
+            "key": "farms",
+            "name": "farms"
+        },
+        {
+            "key": "festivals",
+            "name": "festivals"
+        },
+        {
+            "key": "museums",
+            "name": "museums"
+        },
+        {
+            "key": "observatories",
+            "name": "observatories"
+        },
+        {
+            "key": "streetart",
+            "name": "street art"
+        },
+        {
+            "key": "tour",
+            "name": "tour"
+        },
+        {
+            "key": "shopping",
+            "name": "shopping centers"
+        },
+        {
+            "key": "souvenirshop",
+            "name": "Souvenir Shops"
+        },
+        {
+            "key": "zoos",
+            "name": "zoos"
+        },
+        {
+            "key": "aquariums",
+            "name": "aquariums"
+        },
+        {
+            "key": "beaches",
+            "name": "beaches"
+        }
+    ],
+    "restaurant_categories": [
+        {
+            "key": "chinese",
+            "name": "Chinese Restaurants"
+        },
+        {
+            "key": "italian",
+            "name": "Italian Restaurants"
+        },
+        {
+            "key": "japanese",
+            "name": "Japanese Restaurants"
+        },
+        {
+            "key": "mexican",
+            "name": "Mexican Restaurants"
+        },
+        {
+            "key": "fastfood",
+            "name": "fast food"
+        },
+        {
+            "key": "steakhouse",
+            "name": "Steakhouses"
+        }
+    ]
+}

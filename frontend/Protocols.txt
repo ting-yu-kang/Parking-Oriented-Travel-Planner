@@ -1,0 +1,316 @@
+Step 1
+[POST] domain/01/categories
+
+Post the categories that user choose to go.
+E.g.
+{
+    "categories": ["Attraction", "Education", "Food"]
+}
+
+Step 2
+[GET] domain/02/categories_result
+
+Get sets of markers recommended by the backend.
+E.g.
+{
+    "parking_Lot_1": {
+        "name": "5th Street Parketing Lot",
+        "latitude": 34.010088,
+        "longitude": -118.496493,
+        "surroundings": {
+            "attractions": {
+                "attraction_1":{
+                    "name": "attraction_1",
+                    "latitude": 34.010088,
+                    "longitude": -118.496493,
+                    "estimated_time_spent": 30,
+                    "rating": 4.0,
+                    "ticket": "low"
+                },
+                "attraction_2":{
+                    "name": "attraction_2",
+                    "latitude": 34.010088,
+                    "longitude": -118.496493,
+                    "estimated_time_spent": 20,
+                    "rating": 4.0,
+                    "ticket": "high"
+                }
+            },
+            "educations": {
+                "education_1":{
+                    "name": "education_1",
+                    "latitude": 34.010088,
+                    "longitude": -118.496493,
+                    "estimated_time_spent": 60,
+                    "rating": 4.0,
+                    "ticket": "None"
+                },
+                "education_2":{
+                    "name": "education_2",
+                    "latitude": 34.010088,
+                    "longitude": -118.496493,
+                    "estimated_time_spent": 60,
+                    "rating": 4.0,
+                    "ticket": "low"
+                },
+            },
+            "foods": {
+                "food_1":{
+                    "name": "food_1",
+                    "latitude": 34.010088,
+                    "longitude": -118.496493,
+                    "estimated_time_spent": 60,
+                    "rating": 4.0,
+                    "ticket": "low"
+                },
+            }
+        }
+    },
+    "parking_Lot_2": {
+        "name": "7th Street Parketing Lot",
+        "latitude": 34.010088,
+        "longitude": -118.496493,
+        "surroundings": {
+            "attractions": {
+                "attraction_1":{
+                    "name": "attraction_1",
+                    "latitude": 34.010088,
+                    "longitude": -118.496493,
+                    "estimated_time_spent": 30,
+                    "rating": 4.0,
+                    "ticket": "low"
+                },
+                "attraction_2":{
+                    "name": "attraction_2",
+                    "latitude": 34.010088,
+                    "longitude": -118.496493,
+                    "estimated_time_spent": 20,
+                    "rating": 4.0,
+                    "ticket": "low"
+                }
+            },
+            "educations": {
+                "education_1":{
+                    "name": "education_1",
+                    "latitude": 34.010088,
+                    "longitude": -118.496493,
+                    "estimated_time_spent": 60,
+                    "rating": 4.0,
+                    "ticket": "low"
+                },
+                "education_2":{
+                    "name": "education_2",
+                    "latitude": 34.010088,
+                    "longitude": -118.496493,
+                    "estimated_time_spent": 60,
+                    "rating": 4.0,
+                    "ticket": "low"
+                },
+            },
+            "foods": {
+                "food_1":{
+                    "name": "food_1",
+                    "latitude": 34.010088,
+                    "longitude": -118.496493,
+                    "estimated_time_spent": 60,
+                    "rating": 4.0,
+                    "ticket": "low"
+                },
+            }
+        }
+    }
+}
+
+[POST] domain/02/selections
+
+Post user's selection.
+E.g.
+{
+    "parking_Lot_1": {
+        "name": "5th Street Parketing Lot",
+        "latitude": 34.010088,
+        "longitude": -118.496493,
+        "surroundings": {
+            "attractions": {
+                "attraction_1":{
+                    "name": "attraction_1",
+                    "latitude": 34.010088,
+                    "longitude": -118.496493,
+                    "selected_time_spent": 0 // if 0, it means user doesn't chose to go here
+                },
+                "attraction_2":{
+                    "name": "attraction_2",
+                    "latitude": 34.010088,
+                    "longitude": -118.496493,
+                    "selected_time_spent": 20
+                }
+            },
+            "educations": {
+                "education_1":{
+                    "name": "education_1",
+                    "latitude": 34.010088,
+                    "longitude": -118.496493,
+                    "selected_time_spent": 60
+                },
+                "education_2":{
+                    "name": "education_2",
+                    "latitude": 34.010088,
+                    "longitude": -118.496493,
+                    "selected_time_spent": 60
+                },
+            },
+            "foods": {
+                "food_1":{
+                    "name": "food_1",
+                    "latitude": 34.010088,
+                    "longitude": -118.496493,
+                    "selected_time_spent": 60
+                },
+            }
+        }
+    },
+    "parking_Lot_2": {
+        "name": "7th Street Parketing Lot",
+        "latitude": 34.010088,
+        "longitude": -118.496493,
+        "surroundings": {
+            "attractions": {
+                "attraction_1":{
+                    "name": "attraction_1",
+                    "latitude": 34.010088,
+                    "longitude": -118.496493,
+                    "selected_time_spent": 30
+                },
+                "attraction_2":{
+                    "name": "attraction_2",
+                    "latitude": 34.010088,
+                    "longitude": -118.496493,
+                    "selected_time_spent": 20
+                }
+            },
+            "educations": {
+                "education_1":{
+                    "name": "education_1",
+                    "latitude": 34.010088,
+                    "longitude": -118.496493,
+                    "selected_time_spent": 60
+                },
+                "education_2":{
+                    "name": "education_2",
+                    "latitude": 34.010088,
+                    "longitude": -118.496493,
+                    "selected_time_spent": 60
+                },
+            },
+            "foods": {
+                "food_1":{
+                    "name": "food_1",
+                    "latitude": 34.010088,
+                    "longitude": -118.496493,
+                    "selected_time_spent": 60
+                },
+            }
+        }
+    }
+}
+
+Step 3
+[GET] domain/03/restaurants
+Get restaurant recommendations.
+E.g.
+{
+    "ifLunch" : true,
+    "ifDinner" : true,
+    "lunch_recommendations":{
+        "restaurant_1":{
+            "name": "restaurant_1",
+            "latitude": 34.010088,
+            "longitude": -118.496493,
+            "selected_time_spent": 60,
+            "style": "Thai",
+            "rating": 4.3,
+            "price": "medium"
+        },
+        "restaurant_2":{
+            "name": "restaurant_2",
+            "latitude": 34.010088,
+            "longitude": -118.496493,
+            "selected_time_spent": 35,
+            "style": "Thai",
+            "rating": 4.0,
+            "price": "low"
+        },
+    },
+    "dinner_recommendations":{
+        "restaurant_1":{
+            "name": "restaurant_1",
+            "latitude": 34.010088,
+            "longitude": -118.496493,
+            "selected_time_spent": 60,
+            "style": "Thai",
+            "rating": 4.3,
+            "price": "medium"
+        },
+        "restaurant_2":{
+            "name": "restaurant_2",
+            "latitude": 34.010088,
+            "longitude": -118.496493,
+            "selected_time_spent": 35,
+            "style": "Thai",
+            "rating": 4.0,
+            "price": "low"
+        },
+    }
+}
+
+[POST] domain/03/restaurant_selections
+Post restaurant selection.
+E.g.
+{
+    "lunch_selection":{
+        "name": "restaurant_1",
+        "latitude": 34.010088,
+        "longitude": -118.496493,
+        "selected_time_spent": 60,
+        "style": "Thai",
+        "rating": 4.3,
+        "price": "medium"
+    },
+    "dinner_selection":{
+        "name": "restaurant_2",
+        "latitude": 34.010088,
+        "longitude": -118.496493,
+        "selected_time_spent": 60,
+        "style": "Thai",
+        "rating": 4.3,
+        "price": "medium"
+    }
+}
+
+Step 4
+[GET] domain/04/final_results
+Get the final result, which is the destination list in visiting order.
+E.g.
+{
+    "total_time": 175
+    "destinations": {
+        "destination1":{
+            "name": "destination1",
+            "latitude": 34.010088,
+            "longitude": -118.496493,
+            "time_spent": 60
+        },
+        "destination2":{
+            "name": "destination1",
+            "latitude": 34.010088,
+            "longitude": -118.496493,
+            "time_spent": 35
+        },
+        "destination3":{
+            "name": "destination1",
+            "latitude": 34.010088,
+            "longitude": -118.496493,
+            "time_spent": 80
+        }
+    }
+}

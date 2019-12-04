@@ -1,0 +1,216 @@
+{
+    "current_location": {
+        "latitude": 34.05874,
+        "longitude": -118.380398
+    },
+    "attraction_group_num": 6,
+    "attraction_num": 14,
+    "attraction_groups": [
+        {
+            "parking_lot": {
+                "name": "Los Angeles Memorial Coliseum Parking",
+                "location": {
+                    "latitude": 34.014502,
+                    "longitude": -118.284406
+                }
+            },
+            "attractions": [
+                {
+                    "name": "Natural History Museum",
+                    "category": "zoos aquariums museums",
+                    "location": {
+                        "latitude": 34.016972,
+                        "longitude": -118.288768
+                    },
+                    "estimate_time": 30,
+                    "rating": 4.5
+                },
+                {
+                    "name": "California Science Center",
+                    "category": "zoos aquariums museums observatories",
+                    "location": {
+                        "latitude": 34.015789,
+                        "longitude": -118.286209
+                    },
+                    "estimate_time": 30,
+                    "rating": 4
+                },
+                {
+                    "name": "Space Shuttle Endeavour",
+                    "category": "aquariums museums observatories souvenirshop",
+                    "location": {
+                        "latitude": 34.0162101142984,
+                        "longitude": -118.287373578712
+                    },
+                    "estimate_time": 30,
+                    "rating": 5
+                }
+            ]
+        },
+        {
+            "parking_lot": {
+                "name": "The Gardens",
+                "location": {
+                    "latitude": 34.035871,
+                    "longitude": -118.449456
+                }
+            },
+            "attractions": [
+                {
+                    "name": "got  fish?",
+                    "category": "aquariums",
+                    "location": {
+                        "latitude": 34.0329582,
+                        "longitude": -118.4481401
+                    },
+                    "estimate_time": 30,
+                    "rating": 5
+                },
+                {
+                    "name": "Beautiful Scales",
+                    "category": "aquariums",
+                    "location": {
+                        "latitude": 34.0394401550293,
+                        "longitude": -118.452445983887
+                    },
+                    "estimate_time": 30,
+                    "rating": 5
+                },
+                {
+                    "name": "Two Hands Four Paws",
+                    "category": "aquariums",
+                    "location": {
+                        "latitude": 34.0345191955566,
+                        "longitude": -118.444755554199
+                    },
+                    "estimate_time": 30,
+                    "rating": 4.5
+                }
+            ]
+        },
+        {
+            "parking_lot": {
+                "name": "Grant Parking",
+                "location": {
+                    "latitude": 34.10027,
+                    "longitude": -118.33601
+                }
+            },
+            "attractions": [
+                {
+                    "name": "Sunnyday Scoot",
+                    "category": "zoos tour",
+                    "location": {
+                        "latitude": 34.0999984741211,
+                        "longitude": -118.33332824707
+                    },
+                    "estimate_time": 30,
+                    "rating": 5
+                },
+                {
+                    "name": "Hollywood Wax Museum",
+                    "category": "zoos museums",
+                    "location": {
+                        "latitude": 34.1016849,
+                        "longitude": -118.338065
+                    },
+                    "estimate_time": 30,
+                    "rating": 3.5
+                }
+            ]
+        },
+        {
+            "parking_lot": {
+                "name": "Parking",
+                "location": {
+                    "latitude": 34.06367,
+                    "longitude": -118.36403
+                }
+            },
+            "attractions": [
+                {
+                    "name": "Los Angeles County Museum of Art",
+                    "category": "zoos museums observatories streetart",
+                    "location": {
+                        "latitude": 34.063931,
+                        "longitude": -118.35923
+                    },
+                    "estimate_time": 30,
+                    "rating": 4
+                },
+                {
+                    "name": "Petersen Automotive Museum",
+                    "category": "aquariums museums observatories",
+                    "location": {
+                        "latitude": 34.06235,
+                        "longitude": -118.361135
+                    },
+                    "estimate_time": 30,
+                    "rating": 4
+                }
+            ]
+        },
+        {
+            "parking_lot": {
+                "name": "Curious George Parking",
+                "location": {
+                    "latitude": 34.13576,
+                    "longitude": -118.35114
+                }
+            },
+            "attractions": [
+                {
+                    "name": "Universal Studios Hollywood",
+                    "category": "zoos waterpark amusementpark",
+                    "location": {
+                        "latitude": 34.138119,
+                        "longitude": -118.353382
+                    },
+                    "estimate_time": 30,
+                    "rating": 4
+                },
+                {
+                    "name": "iFLY Indoor Skydiving - Hollywood",
+                    "category": "zoos aquariums amusementpark skydiving",
+                    "location": {
+                        "latitude": 34.1359718148105,
+                        "longitude": -118.35466851059
+                    },
+                    "estimate_time": 30,
+                    "rating": 4.5
+                }
+            ]
+        },
+        {
+            "parking_lot": {
+                "name": "SP+ Parking",
+                "location": {
+                    "latitude": 34.14309,
+                    "longitude": -118.39454
+                }
+            },
+            "attractions": [
+                {
+                    "name": "Marks Tropical Fish",
+                    "category": "zoos aquariums",
+                    "location": {
+                        "latitude": 34.14487,
+                        "longitude": -118.39472
+                    },
+                    "estimate_time": 30,
+                    "rating": 4.5
+                },
+                {
+                    "name": "Joans on Third",
+                    "category": "zoos",
+                    "location": {
+                        "latitude": 34.144814,
+                        "longitude": -118.394577
+                    },
+                    "estimate_time": 30,
+                    "rating": 3.5
+                }
+            ]
+        }
+    ]
+}
