@@ -6,8 +6,8 @@
 * [Report](./Report.pdf)
 
 ### There are two folders:
-* /CODE/frontend/: Front-end repository
-* /CODE/backend/: Back-end repository
+* /frontend: Front-end repository
+* /backend: Back-end repository
 
 ## Available on the Clould Server
 * Our web application has deployed to the Heroku Web Server.
